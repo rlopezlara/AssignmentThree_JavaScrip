@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+	<title>Assignment 3 | The Pizza Maker</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 <!-- connecting to css -->
+	<link href="css/style.css" rel="stylesheet"/>
+    <!-- connecting to JS -->
+	<script src="js/index.js" defer></script>
+    <!-- adding font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Habibi&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Title -->
+    <h1>WelcomeThe Pizza Maker Assignment 3</h1>
+</header>
+<main>
+    <div id="divForm">
+    <h2>Enter your order</h2>
+    <!-- Form detail -->
+    <form action="#" method="get">
+    <input id="bNorth" type="radio" name="branch" value="Barrie North" >
+    <label >Barrie North</label>
+    <input id="bSouth" type="radio" name="branch" value="Barrie South">
+    <label>Barrie South</label><br>
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname"><br>
+   
+    <label for="adddres">Address: </label><br>
+    <input type="text" id="address" name="city"><br>
+    <label for="city">City:</label><br>
+    <input type="text" id="city" name="city"><br>
+    <label for="province">Province:</label><br>
+    <input type="text" id="province" name="province"><br>
+    <label for="postcode">Postal code:</label><br>
+    <input type="text" id="postcode" name="postcode"><br>
+
+    <h3>Type of Pizza</h3>
+    <select>
+        <option value=""></option>
+        <option value="Beef">Beef</option>
+        <option value="Pork">Pork</option>
+        <option value="Vegetarian">Vegetarian</option>
+    </select>
+
+    <h3>Sizes</h3>
+    <input type="radio" name="size" value="Large">
+    <label id="large">Large</label>
+    <input type="radio" name="size" value="Medium">
+    <label id="medium">Medium</label>
+    <input type="radio" name="size" value="Small">
+    <label id="small">Small</label><br>
+
+    <h3>Beverage</h3>
+    <select id="Beverage">
+        <option value=""></option>
+        <option value="No extra">No extra</option>
+        <option value="zero coke">Zero Coke</option>
+        <option value="zero Sprite">Zero Sprite</option>
+        <option value="orange juice">Orange Juice</option>
+        <option value="craft beer">Craft beer</option>
+        
+    </select><br><br>
+    <!-- To print the total Value -->
+    <h3 id="total"></h3>
+     
+    <!-- final buttons -->
+    <input type="submit" id="submit" value="Order"> 
+    <input type="Reset" id="clear"value="Clean">
+    <!-- Printing the summary of the order -->
+    <h3 id="output"></h3>
+    <p id="descriptionOrder"></p>
+</form>
+</div>
+</main>
+<!-- Adding student information -->
+<footer>
+    <h2 id="name"></h2>
+    <p id="studentNumber"></p>
+
+</footer>
+</body>
+</html>

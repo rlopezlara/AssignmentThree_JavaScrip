@@ -1,0 +1,113 @@
+/* general styling */
+
+html{
+   margin: 0px;
+}
+/* family font of the elements */
+h1,h2,h3,h4,h5,p,label {
+    font-family: 'Embed code', sans-serif;
+    color: antiquewhite;
+}
+header h1{
+    color:#f4f4f4;
+    text-shadow: 2px 2px 2px green;
+    font-size: 2.5em;
+}
+/* Adding a pizza as a bg */
+body{
+    background-image: url("/img/bg.jpg");
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+main{
+    display: flex;    
+    justify-content: center;
+}
+
+main div{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+/* adding some styling to the elements */
+#name{
+    color: #f4f4f4;
+}
+#studentNumber{
+    color: #f4f4f4;
+
+}
+#name{
+    color:#f4f4f4;
+    text-shadow: 4px 4px 4px rgb(220, 79, 61);
+    font-size: 2.0em;
+}
+
+input{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#studentNumber{
+    color:#f4f4f4;
+    text-shadow: 2px 2px 2px rgb(46, 38, 156);
+    font-size: 1.7em;
+}
+/* output string of the order */
+#descriptionOrder{
+    font-size: 1.1em;
+    letter-spacing: 1.1px;
+}
+#total{
+    color:#f4f4f4;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 2px rgb(221, 62, 51);
+}
+#output{
+    font-size: 1.6em;
+    text-decoration: underline;
+    color: red;
+}
+/* button style and hover effect */
+#submit{
+    padding: 2% 5%;
+    border-radius: 10%;
+    background-color: green;
+    color: #f4f4f4;
+}
+#submit:hover{
+   color: yellow;
+   text-decoration: underline;
+   background-color: red;
+   box-shadow: 3px 2px 3px yellow;
+   cursor: pointer;
+}
+#clear{
+    padding: 2% 5%;
+    border-radius: 10%;
+    background-color: rgb(9, 44, 159);
+    color: #f4f4f4;
+}
+#clear:hover{
+   color: yellow;
+   text-decoration: underline;
+   background-color: red;
+   box-shadow: 3px 2px 3px yellow;
+   cursor: pointer;
+}
+#btnToPay{
+    padding: 3% 5%;
+    border-radius: 10%;
+    background-color: rgb(190, 51, 58);
+    color: #f4f4f4;
+}
+#btnToPay:hover{    
+    text-decoration: underline;
+    background-color: rgb(31, 128, 30);
+    box-shadow: 3px 2px 3px yellow;
+    cursor: pointer;
+ }
