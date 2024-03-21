@@ -15,7 +15,7 @@ header h1{
 }
 /* Adding a pizza as a bg */
 body{
-    background-image: url("/img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
     text-align: center;
     align-items: center;
