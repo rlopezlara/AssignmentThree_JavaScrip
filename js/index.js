@@ -99,7 +99,7 @@ submitButton.addEventListener("click", function(event){
             description.textContent = "Please enter your province";
             return;
         }else if(postCode === ""){    
-            description.textContent = "Please enter your postCode";
+            description.textContent = "Please enter your postal code";
             return;
         }else if(pizzaSelected === ""){    
             description.textContent = "Please choose a pizza!"; 
